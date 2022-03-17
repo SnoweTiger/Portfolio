@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Портфолио Reva Kirill</title>
+  </head>
+  <body>
+
+    <ul class="nav nav-pills justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">English</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="index_rus.html">Russian</a>
+      </li>
+    </ul>
+
+    <h1 class="text-center display-1  fw-bold">ПОРТФОЛИО</h1>
+
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Конвертор кошек в тигров (CycleGAN)</h1>
+
+        <div class="text-center">
+          <img src="image\GIF_real.gif" class="rounded " alt="..." width="256" height="455">
+          <img src="image\GIF_fake.gif" class="rounded " alt="..." width="256" height="455">
+        </div>
+
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Я собрал датасет из фото кошек и тигров с BING Images. I collected a datasets from photos with cats and tigers from BING Images.
+            Генератор состоит из 3-х сверточных и 3-х residual блоков. Сеть обучалась 30 эпох до получения достаточного результата.
+          </p>
+          <p class="lead mb-4">
+            Также в репозитории есть скрипт для пропуска видео или картинок через нейросеть. Источником видео также может быть веб-камера.
+          </p>
+
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://github.com/SnoweTiger/Cat2Tiger" class="btn btn-primary btn-lg"  role="button" aria-disabled="true">К репозиторию Cat2Tiger</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-5 fw-bold">Торговый чат-бот Bella</h1>
+
+        <div class="text-center">
+          <img src="image\botscheme.jpg" class="rounded " alt="..." width="1000" height="250">
+        </div>
+
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Данный чат-бот предназначен для приема заказов. Работа с Telegramme(API) или любым другим мессенджером(Selenium + WebClient).
+            Я назвал его Белла, так как он был написана для компании, торгующей итальянскими изделиями из камня. Bella анализирует вопрос, полученный от клиента. Ищит в нем интент.
+            Если целью является заказ, проверяет, достаточно ли информации для заказа. Если нет, то задает необходимые уточняющие вопросы.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="mailto:snowetiger@gmail.com" class="btn btn-primary btn-lg"  role="button" aria-disabled="true">Запросить по Email</a>
+          </div>
+        </div>
+
+      <div class="b-example-divider"></div>
+
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-5 fw-bold">DrFreidBOT</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Бот определяет, входит ли заданный вопрос в число примеров для намерений. Если есть, то отвечает фразой на это намерение.
+            Если нет, сгенерируйте ответ генеративной нейронной сетью, обученной на фразах Зигмунда Фрейда.
+            В настоящее время поддерживается только русский язык, но вы можете легко переобучить модель, используя английские или немецкие фразы.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://github.com/SnoweTiger/DrFreidBOT" class="btn btn-primary btn-lg"  role="button" aria-disabled="true">К репозиторию DrFreidBOT</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">&copy; 2021-2022 Кирилл Рева <a href= "mailto:snowetiger@gmail.com">Задать вопрос по email</a></span>
+  </div>
+
+</footer>
+
+
+      <!-- Optional JavaScript; choose one of the two! -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
